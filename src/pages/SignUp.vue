@@ -1,3 +1,4 @@
+
 <template>
   <div class="flex flex-col min-h-screen overflow-hidden">
     <!-- Site header -->
@@ -136,7 +137,7 @@ import Header from "./../partials/Header.vue";
 import PageIllustration from "../partials/PageIllustration.vue";
 import Footer from "./../partials/Footer.vue";
 import axios from 'axios' 
-
+ 
 export default {
   name: "SignUp",
    data() {
@@ -146,16 +147,42 @@ export default {
       email:"",
     }
   },
+  
   methods: {
     emailFunction: function () {
+      /*
+      var axios = require('axios')
+      var data = JSON.stringify({
+        "name": this.full_name,
+        "company": this.company,
+        "email": this.email,
+      });
+      var config = {
+        method: 'post',
+        url: 'https://brnxiq1j5j.execute-api.us-east-1.amazonaws.com/staging/',
+        headers: {
+            'Content-Type':'application/json'
+         },
+         data: data,
+      }
+      axios(config).then(function(response) {
+        console.log(JSON.stringify(response.data));
+      }).catch(function (error) {
+        console.log(error);
+      });
+      */
+      // console.log("Pre Axios has been reached")
       axios.post(
         "https://brnxiq1j5j.execute-api.us-east-1.amazonaws.com/staging/",
-        {
+        { 
           name: this.full_name,
           company: this.company,
           email: this.email,
-        })
-          .then(response => {
+        }, { headers: {
+            'Content-Type':'application/json'
+         }
+         }).then((response) => {
+            console.log("this part has been reached")
             console.log(response);
             if (response.status === 200) {
               alert(
@@ -171,8 +198,8 @@ export default {
           })
           .catch((error) => {
             console.log(error);
-          })
-    },
+          }) 
+    }, 
   },
   components: {
     Header,

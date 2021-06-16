@@ -153,7 +153,7 @@
                 <article class="relative max-w-md mx-auto md:max-w-none">
                   <figure class="md:absolute md:inset-y-0 md:right-0 md:w-2/5">
                     <img
-                      class="transform scale-125 m-full h-full object-contain"
+                      class="transform scale-125 m-full sm:w-0 h-full object-contain"
                       src="../../assets/images/Codify.png"
                       width="400"
                       height="200"
