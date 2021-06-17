@@ -107,6 +107,7 @@
                 <div class="flex flex-wrap -mx-3 mt-6">
                   <div class="w-full px-3">
                     <button
+                      type="button"
                       v-on:click="emailFunction"
                       class="
                         btn

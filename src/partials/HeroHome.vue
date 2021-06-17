@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
       <!-- Illustration behind hero content -->
       <div
-        class="absolute inset-x-10 -ml-20 hidden lg:block pointer-events-none"
+        class="absolute top-0 left-0 -ml-20 hidden lg:block pointer-events-none"
         aria-hidden="true"
         data-aos="fade-up"
         data-aos-delay="400"

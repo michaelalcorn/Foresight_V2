@@ -4,11 +4,7 @@
       <div class="py-12 md:py-20 border-t border-gray-800">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
-          <h2
-            class="h2 mb-4"
-            data-aos="fade-up"
-            data-aos-anchor="[data-aos-id-tabs]"
-          >
+          <h2 class="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">
             Codify, Capture, and Capitalize
           </h2>
         </div>
@@ -24,19 +20,7 @@
           >
             <button
               :class="{ 'opacity-50': tab !== '1' }"
-              class="
-                flex
-                items-center
-                font-medium
-                py-2
-                px-4
-                m-2
-                bg-gray-400
-                rounded-full
-                group
-                transition
-                duration-500
-              "
+              class="flex items-center font-medium py-2 px-4 m-2 bg-gray-400 rounded-full group transition duration-500"
               @click="tab = '1'"
             >
               <svg
@@ -49,31 +33,13 @@
                 />
               </svg>
               <span
-                class="
-                  text-gray-800
-                  group-hover:text-gray-900
-                  transition-colors
-                  duration-150
-                  ease-in-out
-                "
+                class="text-gray-800 group-hover:text-gray-900 transition-colors duration-150 ease-in-out"
                 >Codify</span
               >
             </button>
             <button
               :class="{ 'opacity-50': tab !== '2' }"
-              class="
-                flex
-                items-center
-                font-medium
-                py-2
-                px-4
-                m-2
-                bg-gray-400
-                rounded-full
-                group
-                transition
-                duration-500
-              "
+              class="flex items-center font-medium py-2 px-4 m-2 bg-gray-400 rounded-full group transition duration-500"
               @click="tab = '2'"
             >
               <svg
@@ -86,31 +52,13 @@
                 />
               </svg>
               <span
-                class="
-                  text-gray-800
-                  group-hover:text-gray-900
-                  transition-colors
-                  duration-150
-                  ease-in-out
-                "
+                class="text-gray-800 group-hover:text-gray-900 transition-colors duration-150 ease-in-out"
                 >Capture</span
               >
             </button>
             <button
               :class="{ 'opacity-50': tab !== '3' }"
-              class="
-                flex
-                items-center
-                font-medium
-                py-2
-                px-4
-                m-2
-                bg-gray-400
-                rounded-full
-                group
-                transition
-                duration-500
-              "
+              class="flex items-center font-medium py-2 px-4 m-2 bg-gray-400 rounded-full group transition duration-500"
               @click="tab = '3'"
             >
               <svg
@@ -123,23 +71,14 @@
                 />
               </svg>
               <span
-                class="
-                  text-gray-800
-                  group-hover:text-gray-900
-                  transition-colors
-                  duration-150
-                  ease-in-out
-                "
+                class="text-gray-800 group-hover:text-gray-900 transition-colors duration-150 ease-in-out"
                 >Capitalize</span
               >
             </button>
           </div>
 
           <!-- Tabs items -->
-          <div
-            class="relative flex flex-col mt-16 transform"
-            data-aos="fade-up"
-          >
+          <div class="relative flex flex-col mt-16 transform" data-aos="fade-up">
             <!-- Item 1 -->
             <transition
               enter-active-class="transition ease-in-out duration-500 transform order-first"
@@ -153,7 +92,7 @@
                 <article class="relative max-w-md mx-auto md:max-w-none">
                   <figure class="md:absolute md:inset-y-0 md:right-0 md:w-2/5">
                     <img
-                      class="transform scale-125 m-full sm:w-0 h-full object-contain"
+                      class="transform scale-125 m-full h-full object-contain"
                       src="../../assets/images/Codify.png"
                       width="400"
                       height="200"
@@ -161,44 +100,21 @@
                     />
                   </figure>
                   <div
-                    class="
-                      relative
-                      bg-gray-400
-                      py-8
-                      md:py-16
-                      px-6
-                      md:pr-16
-                      md:max-w-lg
-                      lg:max-w-xl
-                    "
+                    class="relative bg-gray-400 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl"
                   >
                     <h4 class="h4 mb-2">Codify</h4>
                     <p class="text-lg text-gray-800">
-                      Turn everyone into an SME. Our structured data-driven
-                      framework codifies the business needs of your buyers and
-                      end markets and maps them to the capabilities of your
-                      solution.
+                      Turn everyone into an SME. Our structured data-driven framework
+                      codifies the business needs of your buyers and end markets and maps
+                      them to the capabilities of your solution.
                     </p>
                     <a
-                      class="
-                        btn-sm
-                        text-white
-                        bg-purple-600
-                        hover:bg-purple-700
-                        mt-6
-                      "
+                      class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
                       href="#0"
                     >
                       <span class="text-sm">Learn more</span>
                       <svg
-                        class="
-                          w-3
-                          h-3
-                          fill-current
-                          text-purple-400
-                          flex-shrink-0
-                          ml-2
-                        "
+                        class="w-3 h-3 fill-current text-purple-400 flex-shrink-0 ml-2"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -231,44 +147,21 @@
                     />
                   </figure>
                   <div
-                    class="
-                      relative
-                      bg-gray-400
-                      py-8
-                      md:py-16
-                      px-6
-                      md:pl-16
-                      md:max-w-lg
-                      lg:max-w-xl
-                      md:ml-auto
-                    "
+                    class="relative bg-gray-400 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto"
                   >
                     <h4 class="h4 mb-2">Capture</h4>
                     <p class="text-lg text-gray-800">
                       Go beyond text fields buried in CRM. Our proprietary Value
-                      Assessment™ continuously captures the most important
-                      business needs directly from each user
+                      Assessment™ continuously captures the most important business needs
+                      directly from each user
                     </p>
                     <a
-                      class="
-                        btn-sm
-                        text-white
-                        bg-purple-600
-                        hover:bg-purple-700
-                        mt-6
-                      "
+                      class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
                       href="#0"
                     >
                       <span class="text-sm">Learn more</span>
                       <svg
-                        class="
-                          w-3
-                          h-3
-                          fill-current
-                          text-purple-400
-                          flex-shrink-0
-                          ml-2
-                        "
+                        class="w-3 h-3 fill-current text-purple-400 flex-shrink-0 ml-2"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -301,44 +194,21 @@
                     />
                   </figure>
                   <div
-                    class="
-                      relative
-                      bg-gray-400
-                      py-8
-                      md:py-16
-                      px-6
-                      md:pr-16
-                      md:max-w-lg
-                      lg:max-w-xl
-                    "
+                    class="relative bg-gray-400 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl"
                   >
                     <h4 class="h4 mb-2">Capitalize</h4>
                     <p class="text-lg text-gray-800">
-                      Listen to real users rather than product usage. Value
-                      Intelligence™ benchmarks user needs so your teams can
-                      personalize revenue opportunities for buyers across every
-                      end-market.
+                      Listen to real users rather than product usage. Value Intelligence™
+                      benchmarks user needs so your teams can personalize revenue
+                      opportunities for buyers across every end-market.
                     </p>
                     <a
-                      class="
-                        btn-sm
-                        text-white
-                        bg-purple-600
-                        hover:bg-purple-700
-                        mt-6
-                      "
+                      class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
                       href="#0"
                     >
                       <span class="text-sm">Learn more</span>
                       <svg
-                        class="
-                          w-3
-                          h-3
-                          fill-current
-                          text-purple-400
-                          flex-shrink-0
-                          ml-2
-                        "
+                        class="w-3 h-3 fill-current text-purple-400 flex-shrink-0 ml-2"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
